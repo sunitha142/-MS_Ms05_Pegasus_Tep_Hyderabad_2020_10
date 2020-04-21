@@ -1,0 +1,25 @@
+{
+  
+  "manifest_version":2,
+  "name":"Social media",
+  "version":"2.0.1",
+  "description":"displays your current time zone and social media links",
+  "author":"harish and sunitha",
+  "icons":{
+    "128":"clock.png"
+  },
+  
+  "browser_action":{
+    "default_popup":"popup.html",
+    "default_icon":"sm2.png",
+    "default_title":"social media"
+
+  },
+  
+  "permissions":["activeTab"],
+  
+  "background":{
+    "scripts":["main.js"]
+  }
+  
+}
